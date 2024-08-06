@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image to Base64 Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Image to Base64 Converter</h1>
+        </header>
+
+        <main>
+            <section class="upload-section">
+                <label class="custom-file-upload">
+                    <input type="file" accept="image/*" onchange="handleFileUpload(event)" />
+                    <i class="upload-icon fas fa-upload"></i>
+                    <span>Choose Image</span>
+                </label>
+            </section>
+        
+            <section class="output-section">
+                <div class="output-container">
+                    <div id="converted-image" class="output-image">
+                        <!-- Gambar hasil konversi akan muncul di sini -->
+                        <p>Converted Image</p>
+                    </div>
+                    <textarea id="base64-output" class="output-link" readonly></textarea>
+                    <button class="copy-link-btn" onclick="copyLink()">Copy Link</button>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 <a href="https://nusabaktiteknologi.id/" target="_blank">Nusa Bakti Teknologi</a>. All rights reserved. Made with <i class="fas fa-heart love-icon"></i> for a better web.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
