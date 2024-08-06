@@ -12,7 +12,7 @@ A simple and modern web application that allows you to convert images to Base64 
 
 ## Demo
 
-You can view a live demo of the application at [Demo Link]([https://convert.jagoandigital.my.id])
+You can view a live demo of the application at [Demo Link](https://convert.jagoandigital.my.id)
 
 ## Installation
 
